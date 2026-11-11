@@ -1,4 +1,4 @@
-# mailfloss
+# Mailfloss
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -68,11 +68,11 @@ mailfloss provides an automated email verification service that cleans email lis
 
 **Areas:** Email Verification · Marketing · SaaS · Automation · Deliverability
 
-## mailfloss on APIs.io
+## Mailfloss on APIs.io
 
-Everything profiled for mailfloss is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mailfloss/](https://apis.io/providers/mailfloss/)** — or go straight to one of the APIs or properties below.
+Everything profiled for Mailfloss is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mailfloss/](https://apis.io/providers/mailfloss/)** — or go straight to one of the APIs or properties below.
 
-### APIs (8)
+### APIs (11)
 
 - [mailfloss Account API](https://apis.io/apis/mailfloss/mailfloss-account-api/) — Account info, credits, API key management
 - [mailfloss Batch API](https://apis.io/apis/mailfloss/mailfloss-batch-api/) — Asynchronous batch verification jobs
@@ -80,8 +80,11 @@ Everything profiled for mailfloss is published on APIs.io rather than in this re
 - [mailfloss Privacy API](https://apis.io/apis/mailfloss/mailfloss-privacy-api/) — Data privacy / erasure API
 - [mailfloss Reports API](https://apis.io/apis/mailfloss/mailfloss-reports-api/) — Verification usage analytics
 - [mailfloss Team API](https://apis.io/apis/mailfloss/mailfloss-team-api/) — Organization members / seats
-- [mailfloss Verification API](https://apis.io/apis/mailfloss/mailfloss-verification-api/) — Single-email verification endpoints
+- [mailfloss Verification API](https://apis.io/apis/mailfloss/mailfloss-verification-api/)
+- [mailfloss API](https://apis.io/apis/mailfloss/mailfloss-api/) — Single-email verification endpoints
 - [mailfloss Webhooks API](https://apis.io/apis/mailfloss/mailfloss-webhooks-api/) — Webhook subscriptions — event notifications POSTed to your endpoints
+- [Mailfloss batch verify API](https://apis.io/apis/mailfloss/mailfloss-batch-verify-api/) — mailfloss email batch verification API
+- [Mailfloss Verify API](https://apis.io/apis/mailfloss/mailfloss-verify-api/) — mailfloss email verification API
 
 ### Published properties
 
@@ -103,7 +106,7 @@ Linked-data contexts for the provider's vocabulary.
 
 Spectral rulesets for the provider's contracts.
 
-- [mailfloss API Rules](https://apis.io/rules/mailfloss/mailfloss-rules/)
+- [Mailfloss API Rules](https://apis.io/rules/mailfloss/mailfloss-rules/)
 
 #### Security (3)
 
@@ -134,7 +137,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Getting started](https://developers.mailfloss.com/quickstart)
 - [API reference](https://developers.mailfloss.com)
 - [Pricing](https://mailfloss.com/pricing)
-- [Support](https://status.mailfloss.com)
+- [Support](https://docs.mailfloss.com)
 - [Blog](https://mailfloss.com/blog)
 - [Terms of service](https://mailfloss.com/terms)
 - [Privacy policy](https://mailfloss.com/privacy)
@@ -142,32 +145,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 64.7** — strong · rubric 0.25.0 · scored 2026-11-03
+**Kin Score 59.6** — strong · rubric 0.27.0 · scored 2026-11-11
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 53.0 |
-| Contract governance | 79.1 |
-| Operational transparency | 42.6 |
-| Developer ergonomics | 64.3 |
-| Access clarity | 73.2 |
+| Discoverability | 48.3 |
+| Contract quality | 54.6 |
+| Contract governance | 35.6 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 76.3 |
 
-**Agent readiness 62.9** — agent-native
+**Agent readiness 64.5** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | — |
+| MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -178,6 +181,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
 **Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
 
@@ -187,7 +191,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mailfloss: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mailfloss: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
